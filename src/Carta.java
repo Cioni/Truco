@@ -4,13 +4,14 @@ public class Carta {
     private int valor;
 
 
-    public Carta(palo p, int v){
+    public Carta(Palos.palo.Palos p, int v){
         palo = p;
         valor = v;
     }
 
 
-
+    public Carta(String[] palos) {
+    }
 }
 
 

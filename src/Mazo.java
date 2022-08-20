@@ -1,55 +1,57 @@
-import java.util.LinkedList;
+import Palos.palo;
+
 import java.util.List;
 
-import Palos.palo.Palos;
+
+
+
 public class Mazo {
     private List<Carta> cartas;
 
     public Mazo(){
         llenarMazo();
     }
-    public void llenarMazo()
-    {
-        cartas = new LinkedList<Carta>();
-        cartas.add(new Carta(Palos.Espada, 1));
-        cartas.add(new Carta(Palo.Basto, 1));
-        cartas.add(new Carta(Palo.Espada, 7));
-        cartas.add(new Carta(Palo.Oro, 7));
-        cartas.add(new Carta(Palo.Espada, 3));
-        cartas.add(new Carta(Palo.Basto, 3));
-        cartas.add(new Carta(Palo.Oro, 3));
-        cartas.add(new Carta(Palo.Copa, 3));
-        cartas.add(new Carta(Palo.Espada, 2));
-        cartas.add(new Carta(Palo.Basto, 2));
-        cartas.add(new Carta(Palo.Oro, 2));
-        cartas.add(new Carta(Palo.Copa, 2));
-        cartas.add(new Carta(Palo.Copa, 1));
-        cartas.add(new Carta(Palo.Oro, 1));
-        cartas.add(new Carta(Palo.Espada, 12));
-        cartas.add(new Carta(Palo.Basto, 12));
-        cartas.add(new Carta(Palo.Oro, 12));
-        cartas.add(new Carta(Palo.Copa, 12));
-        cartas.add(new Carta(Palo.Espada, 11));
-        cartas.add(new Carta(Palo.Basto, 11));
-        cartas.add(new Carta(Palo.Oro, 11));
-        cartas.add(new Carta(Palo.Copa, 11));
-        cartas.add(new Carta(Palo.Espada, 10));
-        cartas.add(new Carta(Palo.Basto, 10));
-        cartas.add(new Carta(Palo.Oro, 10));
-        cartas.add(new Carta(Palo.Copa, 10));
-        cartas.add(new Carta(Palo.Copa, 7));
-        cartas.add(new Carta(Palo.Basto, 7));
-        cartas.add(new Carta(Palo.Espada, 6));
-        cartas.add(new Carta(Palo.Basto, 6));
-        cartas.add(new Carta(Palo.Oro, 6));
-        cartas.add(new Carta(Palo.Copa, 6));
-        cartas.add(new Carta(Palo.Espada, 5));
-        cartas.add(new Carta(Palo.Basto, 5));
-        cartas.add(new Carta(Palo.Oro, 5));
-        cartas.add(new Carta(Palo.Copa, 5));
-        cartas.add(new Carta(Palo.Espada, 4));
-        cartas.add(new Carta(Palo.Basto, 4));
-        cartas.add(new Carta(Palo.Oro, 4));
-        cartas.add(new Carta(Palo.Copa, 4));
+    public void llenarMazo() {
+        cartas.add(new Carta(palo.Palos.Espada, 1));
+        cartas.add(new Carta(palo.Palos.Basto, 1));
+        cartas.add(new Carta(palo.Palos.Espada, 7));
+        cartas.add(new Carta(palo.Palos.Oro, 7));
+        cartas.add(new Carta(palo.Palos.Copa, 3));
+        cartas.add(new Carta(palo.Palos.Basto, 3));
+        cartas.add(new Carta(palo.Palos.Oro, 3));
+        cartas.add(new Carta(palo.Palos.Espada, 3));
+        cartas.add(new Carta(palo.Palos.Espada, 2));
+        cartas.add(new Carta(palo.Palos.Copa, 2));
+        cartas.add(new Carta(palo.Palos.Oro, 2));
+        cartas.add(new Carta(palo.Palos.Basto, 2));
+        cartas.add(new Carta(palo.Palos.Copa, 1));
+        cartas.add(new Carta(palo.Palos.Oro, 1));
+        cartas.add(new Carta(palo.Palos.Copa, 12));
+        cartas.add(new Carta(palo.Palos.Basto, 12));
+        cartas.add(new Carta(palo.Palos.Oro, 12));
+        cartas.add(new Carta(palo.Palos.Espada, 12));
+        cartas.add(new Carta(palo.Palos.Basto, 11));
+        cartas.add(new Carta(palo.Palos.Copa, 11));
+        cartas.add(new Carta(palo.Palos.Oro, 11));
+        cartas.add(new Carta(palo.Palos.Oro, 11));
+        cartas.add(new Carta(palo.Palos.Basto, 10));
+        cartas.add(new Carta(palo.Palos.Copa, 10));
+        cartas.add(new Carta(palo.Palos.Espada, 10));
+        cartas.add(new Carta(palo.Palos.Oro, 10));
+        cartas.add(new Carta(palo.Palos.Basto, 7));
+        cartas.add(new Carta(palo.Palos.Copa, 7));
+        cartas.add(new Carta(palo.Palos.Basto, 6));
+        cartas.add(new Carta(palo.Palos.Copa, 6));
+        cartas.add(new Carta(palo.Palos.Oro, 6));
+        cartas.add(new Carta(palo.Palos.Oro, 6));
+        cartas.add(new Carta(palo.Palos.Basto, 5));
+        cartas.add(new Carta(palo.Palos.Copa, 5));
+        cartas.add(new Carta(palo.Palos.Oro, 5));
+        cartas.add(new Carta(palo.Palos.Oro, 5));
+        cartas.add(new Carta(palo.Palos.Basto, 4));
+        cartas.add(new Carta(palo.Palos.Copa, 4));
+        cartas.add(new Carta(palo.Palos.Oro, 4));
+        cartas.add(new Carta(palo.Palos.Oro, 4));
+
     }
 }
