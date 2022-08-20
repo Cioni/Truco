@@ -1,15 +1,15 @@
+import Palos.palo;
 public class Carta {
-    private Palo palo;
+    private palo palo;
     private int valor;
 
-    public Carta(Palo p, int v){
+
+    public Carta(palo p, int v){
         palo = p;
         valor = v;
     }
 
-    public static CartaVersus comparar(Carta a, Carta b){
 
-    }
 
 }
 
